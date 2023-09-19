@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cecd0d11.css",
+    "main.js": "/static/js/main.c5d8c3a1.js",
+    "static/js/787.83a59554.chunk.js": "/static/js/787.83a59554.chunk.js",
+    "static/media/valotag1.png": "/static/media/valotag1.b12481e9d788827c9ba9.png",
+    "static/media/portfolioone.png": "/static/media/portfolioone.87d3b14b6eab788de646.png",
+    "static/media/samiCooking.png": "/static/media/samiCooking.2f184c09b4e930b8e03f.png",
+    "static/media/samiHi.png": "/static/media/samiHi.69ac658832dfd47a15a9.png",
+    "static/media/reactionTimer1.png": "/static/media/reactionTimer1.13f08b604720ba73fff8.png",
+    "static/media/polyBG1.svg": "/static/media/polyBG1.15070efb9eb6b3dd88d32030e64f0afa.svg",
+    "static/media/polyBG_b.svg": "/static/media/polyBG_b.9ffc96cbe260ad60a24aca6af82d6760.svg",
+    "static/media/reactionTimer2.png": "/static/media/reactionTimer2.9fa0d55ab514e1a7190c.png",
+    "static/media/polyBG2.svg": "/static/media/polyBG2.84f59cc04af7db3aa06fd37547a19d69.svg",
+    "static/media/polyBG1_b.svg": "/static/media/polyBG1_b.3772597d7809dbd9b8d04cfe1cb199ef.svg",
+    "static/media/typingSpeedBackground_b.png": "/static/media/typingSpeedBackground_b.3f9992292530354c90c9.png",
+    "static/media/polyBG2_b.svg": "/static/media/polyBG2_b.64e1abbf6de71bd279a070c72c423a7a.svg",
+    "static/media/polyBG.svg": "/static/media/polyBG.9e2d28c0e870f31a7812d09dd48eccd0.svg",
+    "index.html": "/index.html",
+    "main.cecd0d11.css.map": "/static/css/main.cecd0d11.css.map",
+    "main.c5d8c3a1.js.map": "/static/js/main.c5d8c3a1.js.map",
+    "787.83a59554.chunk.js.map": "/static/js/787.83a59554.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cecd0d11.css",
+    "static/js/main.c5d8c3a1.js"
+  ]
+}
