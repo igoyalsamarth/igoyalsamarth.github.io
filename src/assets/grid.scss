@@ -1,0 +1,18 @@
+.grid-tile{
+    transition: ease all 0.5s;
+}
+.main-grid{
+        animation: fadeInAnimation ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        margin-top: 20px;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,101 @@
+@mixin base{
+    transform: scale(0);
+    background: transparent
+}
+.hour div{
+    background: darken($color: (#63b7b7), $amount: 25%);
+}
+.hour-dark div{
+  background: darken($color: (#d10a2c), $amount: 5%);
+}
+.minute div{
+    background: darken($color: (#63b7b7), $amount: 25%);
+}
+.minute-dark div{
+  background: darken($color: (#d10a2c), $amount: 5%);
+}
+.second div{
+    background: darken($color: (#63b7b7), $amount: 15%);
+}
+.second-dark div{
+  background: darken($color: (#d10a2c), $amount: 0%);
+}
+figure div{
+    transform: scale(1);
+    transition: all 500ms ease-in-out
+}
+figure.n0{
+  div:nth-child(5),
+  div:nth-child(8),
+  div:nth-child(11){
+    @include base
+  }
+}
+figure.n1{
+  div:nth-child(3n-2),
+  div:nth-child(3n){
+    @include base
+  }
+}
+figure.n2, figure.n3{
+  div:nth-child(4),
+  div:nth-child(5),
+  div:nth-child(11){
+    @include base
+  }
+}
+figure.n2{
+  div:nth-child(12){
+    @include base
+  }
+} 
+figure.n3{
+  div:nth-child(10){
+    @include base
+  }
+} 
+figure.n4{
+  div:nth-child(2),
+  div:nth-child(5),
+  div:nth-child(10),
+  div:nth-child(11),
+  div:nth-child(13),
+  div:nth-child(14){
+    @include base
+  }
+}
+figure.n5, figure.n6, figure.n8, figure.n9{
+  div:nth-child(5),
+  div:nth-child(11){
+    @include base
+  }
+}
+figure.n5{
+  div:nth-child(6),
+  div:nth-child(10){
+    @include base
+  }
+} 
+figure.n6{
+  div:nth-child(6){
+    @include base
+  }
+}
+figure.n7{
+  div:nth-child(4),
+  div:nth-child(5),
+  div:nth-child(7),
+  div:nth-child(8),
+  div:nth-child(10),
+  div:nth-child(11),
+  div:nth-child(13),
+  div:nth-child(14){
+    @include base
+  }
+}
+    
+figure.n9{
+  div:nth-child(10){
+    @include base
+  }
+}
