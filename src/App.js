@@ -37,7 +37,7 @@ function App() {
           </div>
         </div>
         {isCopied && 
-            <div className='fixed bottom-[35px] bg-[#d10a2c] px-[10px] py-[7px] rounded-lg left-[45vw] tab:left-[43vw] mob:left-[33vw]'>
+            <div className='fixed bottom-[35px] bg-[#d10a2c] px-[10px] py-[7px] rounded-lg left-[45vw] tab:left-[43vw] mob:left-[33vw] duration-200'>
               <p className=' text-[#fff] font-bold text-xs'>Copied To Clipboard!</p>
             </div>
         }
