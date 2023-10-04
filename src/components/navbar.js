@@ -24,8 +24,8 @@ export default function Navbar(props){
                     Media
                 </NavLink>
             </ul>
-            <div className={`flex justify-center items-center mob:hidden rounded-full p-[4px] opacity-0 ${props.darkmode?'bg-[#181818]':'bg-[#ecf3ff]'}`}>
-              <p className={`rounded-full px-[10px] py-[4px] text-center opacity-0 ${props.darkmode?'hover:bg-[#232323]':'hover:bg-[#fefffe]'}`}>Contact</p>
+            <div className={`flex justify-center items-center mob:hidden rounded-full p-[4px] cursor-pointer ${props.darkmode?'bg-[#181818]':'bg-[#ecf3ff]'}`}>
+              <p onClick={() => {window.open('https://igoyalsamarth.github.io/Resume.pdf', "_blank");}} className={`rounded-full px-[10px] py-[4px] text-center ${props.darkmode?'hover:bg-[#232323]':'hover:bg-[#fefffe]'}`}>Resume</p>
             </div>
         </>
     );
