@@ -1,8 +1,10 @@
-import querystring from "querystring"
-import { Buffer } from "buffer";
+//import querystring from "querystring"
+//import { Buffer } from "buffer";
 import samiCooking from '../assets/samiCooking.png'
-import { useEffect, useState } from "react";
+//import { useEffect, useState } from "react";
 export default function SpotifyTile(){
+
+    /*
     const [loading, setLoading] = useState(true);
     const [result, setResult] = useState({});
     const TOKEN_ENDPOINT = 'https://accounts.spotify.com/api/token';
@@ -75,6 +77,7 @@ export default function SpotifyTile(){
 
     useEffect(() => {
     })
+    */
     return(
         <div className="flex justify-center px-[42px] py-[42px] h-full w-full items-center">
                   <img src={samiCooking} className="w-[200px]" alt="Sami Cooking"></img>
