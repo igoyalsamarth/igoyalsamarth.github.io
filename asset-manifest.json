@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f75fa5e6.css",
-    "main.js": "/static/js/main.b2639ba4.js",
+    "main.css": "/static/css/main.942922f1.css",
+    "main.js": "/static/js/main.a6f575a1.js",
     "static/js/787.83a59554.chunk.js": "/static/js/787.83a59554.chunk.js",
     "static/media/valotag1.png": "/static/media/valotag1.b12481e9d788827c9ba9.png",
     "static/media/portfolioone.png": "/static/media/portfolioone.87d3b14b6eab788de646.png",
@@ -17,12 +17,12 @@
     "static/media/polyBG2_b.svg": "/static/media/polyBG2_b.64e1abbf6de71bd279a070c72c423a7a.svg",
     "static/media/polyBG.svg": "/static/media/polyBG.9e2d28c0e870f31a7812d09dd48eccd0.svg",
     "index.html": "/index.html",
-    "main.f75fa5e6.css.map": "/static/css/main.f75fa5e6.css.map",
-    "main.b2639ba4.js.map": "/static/js/main.b2639ba4.js.map",
+    "main.942922f1.css.map": "/static/css/main.942922f1.css.map",
+    "main.a6f575a1.js.map": "/static/js/main.a6f575a1.js.map",
     "787.83a59554.chunk.js.map": "/static/js/787.83a59554.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f75fa5e6.css",
-    "static/js/main.b2639ba4.js"
+    "static/css/main.942922f1.css",
+    "static/js/main.a6f575a1.js"
   ]
 }
