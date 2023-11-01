@@ -5,7 +5,7 @@ import MatrixClock from './matrixClock';
 import DayTimer from './dayTimer';
 import DarkModeSwitch from './darkModeSwitch';
 import SleepModeSwitch from './sleepModeSwitch';
-import SpotifyTile from './spotifyTile';
+//import SpotifyTile from './spotifyTile';
 import TypeTile from './typeTile';
 import ReactionTimerTile from './reactiontimertile';
 import PortfolioOneTile from './portfolioone'
@@ -23,7 +23,7 @@ export default function Grid(props) {
       <div className={`grid-tile absolute h-[288px] w-[592px] tab:w-[392px] tab:h-[392px] mob:w-[375px] mob:h-[375px] rounded-[30px] overflow-hidden shadow-md border ${props.darkmode ? 'bg-[#181818] border-[#d10a0a7c] hover:shadow-[#d10a0a7c]' : 'bg-[#fefffe] border-[#63b7b7] hover:shadow-[#63b7b7]'} ${props.navbar === 'home' ? 'opacity-100' : props.navbar === 'about' ? 'opacity-100' : 'opacity-20'}`} >
         <div className={`flex flex-col justify-around px-[42px] py-[42px] tab:py-[21px] h-full w-full items-center`}>
           <img src={samiHi} className='w-[30%] tab:w-[40%] mob:w-[50%]' alt='Sami Hi'></img>
-          <p className="">My name is <span className='font-black text-4xl'>Samarth</span>, a FrontEnd WebDev from The City of Taj, Agra. I code in <span className='font-extrabold'>NextJS</span>, <span className='font-extrabold'>ReactJS</span> and <span className='font-extrabold'>Tailwind</span>, my fields of interest are Esports, Anime and Music.</p>
+          <p className="">My name is <span className='font-black text-4xl'>Samarth</span>, a FrontEnd WebDev from The City of Taj, Agra. I code in <span className='font-extrabold'>TypeScript</span>, <span className='font-extrabold'>NextJS</span> and <span className='font-extrabold'>TailwindCSS</span>, my fields of interest are Esports, Anime and Music.</p>
         </div>
       </div>
       <div className={`grid-tile absolute h-[288px] tab:h-[188px] mob:h-[179.5px] w-[288px] tab:w-[188px] mob:w-[179.5px] ml-[608px] tab:ml-[408px] mob:ml-[0] mob:mt-[782px] bg-transparent border rounded-[30px] overflow-hidden shadow-md ${props.darkmode ? 'border-[#d10a0a7c] hover:shadow-[#d10a0a7c]' : 'border-[#63b7b7] hover:shadow-[#63b7b7]'} ${props.navbar === 'home' ? 'opacity-100' : props.navbar === 'media' ? 'opacity-100' : 'opacity-20'}`}>
@@ -65,7 +65,7 @@ export default function Grid(props) {
           <MediumLogo darkmode={props.darkmode} />
         </div>
       </div>
-      <div onClick={() => { window.open('https://igoyalsamarth.github.io/portfolio-one/', "_blank"); }} className={`grid-tile cursor-pointer absolute h-[288px] tab:h-[188px] mob:h-[179.5px] w-[592px] tab:w-[392px] mob:w-[375px] mt-[1216px] tab:mt-[1020px] mob:mt-[2150.6px] ml-[304px] tab:ml-[0px] mob:ml-[0px] rounded-[30px] overflow-hidden shadow-md border ${props.darkmode ? 'bg-[#181818] border-[#d10a0a7c] hover:shadow-[#d10a0a7c]' : 'bg-[#fefffe] border-[#63b7b7] hover:shadow-[#63b7b7]'} ${props.navbar === 'home' ? 'opacity-100' : props.navbar === 'work' ? 'opacity-100' : 'opacity-20'}`}>
+      <div onClick={() => { window.open('https://jagdish-bags.vercel.app', "_blank"); }} className={`grid-tile cursor-pointer absolute h-[288px] tab:h-[188px] mob:h-[179.5px] w-[592px] tab:w-[392px] mob:w-[375px] mt-[1216px] tab:mt-[1020px] mob:mt-[2150.6px] ml-[304px] tab:ml-[0px] mob:ml-[0px] rounded-[30px] overflow-hidden shadow-md border ${props.darkmode ? 'bg-[#181818] border-[#d10a0a7c] hover:shadow-[#d10a0a7c]' : 'bg-[#fefffe] border-[#63b7b7] hover:shadow-[#63b7b7]'} ${props.navbar === 'home' ? 'opacity-100' : props.navbar === 'work' ? 'opacity-100' : 'opacity-20'}`}>
         <PortfolioOneTile darkmode={props.darkmode} />
       </div>
       <div onClick={() => { window.open('https://www.linkedin.com/in/goyalsamarth/', "_blank"); }} className={`grid-tile cursor-pointer absolute h-[288px] tab:h-[188px] mob:h-[179.5px] w-[288px] tab:w-[188px] mob:w-[179.5px] mt-[1216px] tab:mt-[816px] mob:mt-[1955.1px] ml-[912px] tab:ml-[0px] mob:ml-[195.5px] rounded-[30px] overflow-hidden shadow-md border ${props.darkmode ? 'bg-[#181818] border-[#d10a0a7c] hover:shadow-[#d10a0a7c]' : 'bg-[#017fbb] border-[#63b7b7] hover:shadow-[#63b7b7]'} ${props.navbar === 'home' ? 'opacity-100' : props.navbar === 'media' ? 'opacity-100' : 'opacity-20'}`}>
