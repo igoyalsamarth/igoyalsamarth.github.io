@@ -45,7 +45,7 @@ export default function Grid(props) {
         <TypeTile darkmode={props.darkmode} />
       </div>
       <div onClick={() => { window.open('https://github.com/igoyalsamarth', "_blank"); }} className={`grid-tile cursor-pointer absolute h-[288px] tab:h-[188px] mob:h-[179.5px] w-[288px] tab:w-[188px] mob:w-[179.5px] ml-[912px] tab:ml-[612px] mob:ml-[0] mt-[608px] tab:mt-[408px] mob:mt-[977.6px] rounded-[30px] overflow-hidden shadow-md border ${props.darkmode ? 'bg-[#181818] border-[#d10a0a7c] hover:shadow-[#d10a0a7c]' : 'bg-[#fefffe] border-[#63b7b7] hover:shadow-[#63b7b7]'} ${props.navbar === 'home' ? 'opacity-100' : props.navbar === 'about' ? 'opacity-100' : 'opacity-20'}`}>
-        <div className="flex justify-center px-[42px] py-[42px] h-full w-full items-center">
+        <div className="flex justify-center px-[40px] py-[40px] h-full w-full items-center">
           <GithubLogo darkmode={props.darkmode} />
         </div>
       </div>
