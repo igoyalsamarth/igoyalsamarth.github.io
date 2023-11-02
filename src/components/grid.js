@@ -61,7 +61,7 @@ export default function Grid(props) {
         <ReactionTimerTile darkmode={props.darkmode} />
       </div>
       <div onClick={() => { window.open('https://medium.com/@samarth.goyal1999', "_blank"); }} className={`grid-tile cursor-pointer absolute h-[288px] tab:h-[188px] mob:h-[179.5px] w-[288px] tab:w-[188px] mob:w-[179.5px] mt-[1216px] tab:mt-[612px] mob:mt-[1759.6px] tab:ml-[408px] mob:ml-[195.5px] rounded-[30px] overflow-hidden shadow-md border ${props.darkmode ? 'bg-[#181818] border-[#d10a0a7c] hover:shadow-[#d10a0a7c]' : 'bg-[#fefffe] border-[#63b7b7] hover:shadow-[#63b7b7]'} ${props.navbar === 'home' ? 'opacity-100' : props.navbar === 'media' ? 'opacity-100' : 'opacity-20'}`}>
-        <div className="flex just{ify-center px-[42px] py-[42px] h-full w-full items-center">
+        <div className="flex justify-center px-[42px] py-[42px] h-full w-full items-center">
           <MediumLogo darkmode={props.darkmode} />
         </div>
       </div>
