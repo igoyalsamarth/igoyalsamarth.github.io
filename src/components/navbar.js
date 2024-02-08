@@ -25,7 +25,7 @@ export default function Navbar(props){
                 </NavLink>
             </ul>
             <div className={`flex justify-center items-center rounded-full p-[4px] cursor-pointer ${props.darkmode?'bg-[#181818]':'bg-[#ecf3ff]'}`}>
-              <p onClick={() => {window.open('https://igoyalsamarth.github.io/Resume.pdf', "_blank");}} className={`rounded-full px-[10px] py-[4px] text-center ${props.darkmode?'hover:bg-[#232323]':'hover:bg-[#fefffe]'}`}>Resume</p>
+              <p onClick={() => {window.open('/Resume.pdf', "_blank");}} className={`rounded-full px-[10px] py-[4px] text-center ${props.darkmode?'hover:bg-[#232323]':'hover:bg-[#fefffe]'}`}>Resume</p>
             </div>
         </>
     );
